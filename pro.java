@@ -31,8 +31,9 @@ class ClassProductDemo
 		{
 			System.out.println("product 3 has low price");
 		}
+	}
 }
-class sample
+class pro
 {
 	public static void main(String args[])
 	{
@@ -43,7 +44,7 @@ class sample
 		obj1.display();
 		obj2.display();
 		obj3.display();
-		findLowest(obj1,obj2,obj3);
+		ClassProductDemo.findLowest(obj1,obj2,obj3);
 	}
 }
 
